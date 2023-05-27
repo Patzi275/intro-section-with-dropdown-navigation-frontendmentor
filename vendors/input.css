@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Epilogue";
+        src: url("../fonts/Epilogue-Medium.ttf");
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: "Epilogue";
+        src: url("../fonts/Epilogue-Bold.ttf");
+        font-weight: 700;
+    }
+    
+    body {
+        font-family: 'Epilogue';
+    }
+}
+
+.nav-links {
+    @apply flex flex-col gap-3;
+    @apply md:flex-row md:items-center md:gap-10;
+}
+
+.nav-links a {
+    @apply flex justify-between items-center w-fit h-fit gap-4 mb-2;
+    @apply md:mb-0;
+}
+
+.link-group {}
+
+.link-group .wrapper {
+    @apply overflow-hidden h-0;
+    @apply md:hidden;
+}  
+
+.link-group .wrapper > div {
+    @apply pl-6 py-2 relative;
+}
+
+.link-group .wrapper > div a {
+    @apply flex-row-reverse;
+}
+
+.auth-links {
+    @apply flex flex-col items-center text-sm;
+    @apply md:flex-row md:ml-auto md:gap-8;
+}
+
+.auth-links a:last-of-type {
+    @apply flex justify-center w-full py-1.5 border border-medium-gray rounded-lg;
+    @apply md:px-4;
+}
