@@ -46,20 +46,20 @@
           <!-- Nav top with cross -->
           <div class="relative h-12
             md:hidden">
-            <a class="absolute right-0" href="javascript:void(0)">
+            <a id="nav-closer" class="absolute right-0" href="javascript:void(0)">
               <img src="assets/images/icon-close-menu.svg" alt="cross icon">
             </a>
           </div>
 
           <!-- Nav links -->
           <div class="nav-links">
-            <div class="link-group">
+            <div id="link-group-1" class="link-group">
               <a href="#">
                 <div>Features</div>
                 <img src="assets/images/icon-arrow-down.svg" src-opened="assets/images/icon-arrow-down.svg"
                   src-closed="assets/images/icon-arrow-up.svg" alt="">
               </a>
-              <div class="wrapper">
+              <div class="wrapper md:-translate-x-14">
                 <div>
                   <a href="#">
                     <div>Todo List</div>
@@ -80,7 +80,7 @@
                 </div>
               </div>
             </div>
-            <div class="link-group">
+            <div id="link-group-2" class="link-group">
               <a href="#">
                 <div>Company</div>
                 <img src="assets/images/icon-arrow-down.svg" src-opened="assets/images/icon-arrow-down.svg"
@@ -106,26 +106,30 @@
     </div>
   </header>
   <main class="grid grid-cols-1 gap-12
-    md:grid-cols-2">
+    md:grid-cols-2 md:my-12 md:mx-20 md:gap-12">
     <div class="md:row-start-1 md:col-start-2">
-      <img class="hidden md:block md:max-h-[35rem]" src="assets/images/image-hero-desktop.png" alt="hero image">
+      <img class="hidden md:block md:max-h-[40rem] md:ml-auto" src="assets/images/image-hero-desktop.png" alt="hero image">
       <img class="md:hidden" src="assets/images/image-hero-mobile.png" alt="hero image">
     </div>
 
-    <div class="flex flex-col justify-center gap-8 px-2 text-center">
-      <div class="flex flex-col items-center gap-6">
-        <h1 class="text-4xl text-almost-black font-bold leading-none">Make remote work</h1>
+    <div class="flex flex-col justify-center gap-8 px-2 text-center
+      md:pl-12 md:gap-28 md:justify-end">
+      <div class="flex flex-col items-center gap-6
+        md:text-left md:items-start md:gap-10">
+        <h1 class="text-4xl text-almost-black font-bold leading-none
+          md:text-[4.76rem]">Make <br class="hidden md:block"> remote work</h1>
         <p class="text-custom1">
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <a class="py-3 px-6 rounded-2xl bg-almost-black text-almost-white font-bold" href="#">Learn more</a>
+        <a class="py-3 px-6 rounded-2xl bg-almost-black text-almost-white font-bold border border-almost-black
+          transition-all hover:bg-transparent hover:text-almost-black border-almost-black" href="#">Learn more</a>
       </div>
       <div class="grid grid-cols-4 items-center">
-        <img class="p-2" src="assets/images/client-databiz.svg" alt="databiz image">
-        <img class="p-4" src="assets/images/client-audiophile.svg" alt="audiophile image">
-        <img class="p-2" src="assets/images/client-meet.svg" alt="meet image">
-        <img class="p-2" src="assets/images/client-maker.svg" alt="maker image">
+        <img class="p-2 md:pb-0 md:mt-auto" src="assets/images/client-databiz.svg" alt="databiz image">
+        <img class="p-4 md:pb-0 md:mt-auto" src="assets/images/client-audiophile.svg" alt="audiophile image">
+        <img class="p-2 md:pb-0 md:mt-auto" src="assets/images/client-meet.svg" alt="meet image">
+        <img class="p-2 md:pb-0 md:mt-auto" src="assets/images/client-maker.svg" alt="maker image">
       </div>
     </div>
   </main>
@@ -147,8 +151,9 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/Patzi275">Patrick ZOCLI</a>.
   </div>
+  <script src="assets/scripts/main.js"></script>
 </body>
 
 </html>

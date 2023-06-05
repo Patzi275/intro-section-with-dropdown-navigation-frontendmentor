@@ -27,18 +27,24 @@
 
 .nav-links a {
     @apply flex justify-between items-center w-fit h-fit gap-4 mb-2;
+    @apply transition-colors hover:text-almost-black;
     @apply md:mb-0;
 }
 
 .link-group {}
 
 .link-group .wrapper {
-    @apply overflow-hidden h-0;
-    @apply md:hidden;
+    @apply overflow-hidden h-0 bg-almost-white;
+    @apply md:block md:rounded-xl md:shadow-2xl md:absolute md:mt-4;
 }  
+
+.wrapper--active .wrapper {
+    @apply h-max;
+}
 
 .link-group .wrapper > div {
     @apply pl-6 py-2 relative;
+    @apply md:p-6 md:py-5;
 }
 
 .link-group .wrapper > div a {
@@ -51,6 +57,7 @@
 }
 
 .auth-links a:last-of-type {
-    @apply flex justify-center w-full py-1.5 border border-medium-gray rounded-lg;
+    @apply flex justify-center w-full py-1.5 border border-medium-gray rounded-xl;
+    @apply hover:border-almost-black;
     @apply md:px-4;
 }
