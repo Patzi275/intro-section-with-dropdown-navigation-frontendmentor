@@ -24,14 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./intro-section-with-dropdown-navigation.png)
-![](./intro-section-with-dropdown-navigation-Galaxy-S9+.png)
+![](./screenshots/intro-section-with-dropdown-navigation.png)
+![](./screenshots/intro-section-with-dropdown-navigation-Galaxy-S9+.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Patzi275/intro-section-with-dropdown-navigation)
-- Live Site URL: [Add live site URL here](https://patzi275-intro-section-with-dropdown-navigation.surge.sh)
+- Solution URL: [https://github.com/Patzi275/intro-section-with-dropdown-navigation](https://github.com/Patzi275/intro-section-with-dropdown-navigation)
+- Live Site URL: [https://patzi275-intro-section-with-dropdown-navigation.surge.sh](https://patzi275-intro-section-with-dropdown-navigation.surge.sh)
 
 ## My process
 
