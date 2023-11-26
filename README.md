@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Patzi275/intro-section-with-dropdown-navigation](https://github.com/Patzi275/intro-section-with-dropdown-navigation)
-- Live Site URL: [https://patzi275-intro-section-with-dropdown-navigation.surge.sh](https://patzi275-intro-section-with-dropdown-navigation.surge.sh)
+- Live Site URL: [http://patzi275-intro-section-with-dropdown-navigation.surge.sh](http://patzi275-intro-section-with-dropdown-navigation.surge.sh)
 
 ## My process
 
